@@ -1,6 +1,11 @@
+import { RouterProvider } from "react-router-dom";
+import router from "route/route";
+
 function App() {
   return (
-    <>joy cinema</>
+    <>
+      <RouterProvider router={router}/>
+    </>
   );
 }
 
